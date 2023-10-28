@@ -79,7 +79,6 @@ section {
     background: url(./Files/myImg.png) no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
 }
 .home-content {
     max-width: 60rem;
@@ -624,7 +623,7 @@ input[type=number]::-webkit-outer-spin-button{
         background: var(--bg-color);
     }
     .home {
-        background: url(./Files/About.jpg);
+        background: url(./Files/myImgbg.png);
         background-size: cover;
         background-position: center;
     }
