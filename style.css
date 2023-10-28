@@ -622,6 +622,15 @@ input[type=number]::-webkit-outer-spin-button{
     .header {
         background: var(--bg-color);
     }
+    .home {
+        background: url(./Files/About.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    .home-imgHover{
+        width: 100%;
+    }
     #menu-icon {
         display: block;
     }
@@ -681,7 +690,7 @@ input[type=number]::-webkit-outer-spin-button{
         grid-template-columns: repeat(2,1fr);
     }
 }
-@media (max-width: 520px) {
+@media (max-width: 480px) {
     html {
         font-size: 50%;
     }
