@@ -78,7 +78,7 @@ section {
     padding: 0 9%;
     background: url(./Files/myImg.png) no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 .home-content {
     max-width: 60rem;
@@ -622,11 +622,6 @@ input[type=number]::-webkit-outer-spin-button{
     .header {
         background: var(--bg-color);
     }
-    .home {
-        background: url(./Files/myImgbg.png);
-        background-size: cover;
-        background-position: center;
-    }
     .home-imgHover{
         width: 100%;
     }
@@ -706,6 +701,9 @@ input[type=number]::-webkit-outer-spin-button{
     }
     .portfolio-container {
         grid-template-columns: repeat(1,1fr);
+    }
+    .home {
+        background-size: 500px;
     }
 }
 @media (max-width: 410px) {
