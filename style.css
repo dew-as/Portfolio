@@ -623,9 +623,9 @@ input[type=number]::-webkit-outer-spin-button{
         background: var(--bg-color);
     }
     .home {
-        background: url(./Files/About.jpg) no-repeat;
+        background: url(./Files/About.jpg);
         background-size: cover;
-        background-position: center center;
+        background-position: center;
     }
     .home-imgHover{
         width: 100%;
