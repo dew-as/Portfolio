@@ -619,9 +619,6 @@ input[type=number]::-webkit-outer-spin-button{
     }
 }
 @media (max-width: 768px){
-    body{
-        margin-left: 0;
-    }
     .header {
         background: var(--bg-color);
     }
@@ -707,17 +704,17 @@ input[type=number]::-webkit-outer-spin-button{
         width: 30px;
         height: 30px;
     }
-    .portfolio-container {
+    /* .portfolio-container {
         grid-template-columns: repeat(1,1fr);
-    }
+    } */
 }
 @media (max-width: 410px) {
     .home-content h1 {
         font-size: 5.2rem;
     }
-    .portfolio-container {
+    /* .portfolio-container {
         grid-template-columns: repeat(1,1fr);
-    }
+    } */
     .contact form .input-box .input-field {
         width: 100%;
     }
