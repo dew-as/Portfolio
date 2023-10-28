@@ -702,6 +702,9 @@ input[type=number]::-webkit-outer-spin-button{
     .portfolio-container {
         grid-template-columns: repeat(1,1fr);
     }
+    .home {
+        background-size: 600px;
+    }
 }
 @media (max-width: 462px) {
     .home-content h1 {
