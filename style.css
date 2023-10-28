@@ -707,6 +707,9 @@ input[type=number]::-webkit-outer-spin-button{
     .portfolio-container {
         grid-template-columns: repeat(1,1fr);
     }
+    #menu-icon {
+        margin-left: 50px;
+    }
 }
 @media (max-width: 410px) {
     .home-content h1 {
