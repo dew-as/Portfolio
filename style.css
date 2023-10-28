@@ -619,6 +619,9 @@ input[type=number]::-webkit-outer-spin-button{
     }
 }
 @media (max-width: 768px){
+    body{
+        margin-left: 0;
+    }
     .header {
         background: var(--bg-color);
     }
